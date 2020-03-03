@@ -1,0 +1,58 @@
+\documentclass[11pt]{article}
+\usepackage[italian]{babel}
+\usepackage{geometry}
+\usepackage{pifont}
+\usepackage{graphicx} 
+\usepackage{titlesec}
+\geometry{a4paper} 
+\usepackage{listings} % necessario per inclusione codice sorgente
+\usepackage{color} % syntax highlighting
+\usepackage{url}
+\usepackage[export]{adjustbox}
+% definizione dei colori  
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\pdfinfo{
+   /Author (Andrei Ciulpan)
+   /Title  (Specifica del Progetto di Laboratorio - Architetture II - Turno A)
+}
+\title{Specifica del Progetto di Laboratorio \\ Architettura degli Elaboratori II}
+\author{Andrei Ciulpan\\ Matricola: 872394 - Turno: A\\ \url{andrei.ciulpan@studenti.unimi.it}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Introduzione}
+
+Il progetto consiste nella scrittura di un programma in linguaggio assembly utilizzando il simulatore MARS.
+Il programma chiederà all'utente l'introduzione di un numero via console, dopodichè
+esporrà un menu cosi' come segue:
+
+\begin{enumerate}
+\item Calcola la sequenza di Collatz del numero N
+\item Stabilisci se N è primo 
+\item Stabilisci se N è pari/dispari 
+\item Dammi un numero casuale compreso tra 1 e N
+\item Riprova con un altro numero
+\item Esci
+\end{enumerate}
+
+
+L'output del programma dipenderà dall'opzione scelta.
+
+Saranno presenti le seguenti funzioni:  
+
+\begin{enumerate}
+\item int collatz(int N) \# funzione ricorsiva
+\item int primo(int N))
+\item int pari(int N)
+\item int random(int N)
+
+\end{enumerate}
+
+
+
+\end{document}
