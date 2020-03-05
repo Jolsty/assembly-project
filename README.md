@@ -9,7 +9,7 @@ console, dopodichè esporrà un menu cosi’ come segue:
 5. Riprova con un altro numero
 6. Esci
 
-L’output del programma dipender`a dall’opzione scelta.
+L’output del programma dipenderà dall’opzione scelta.
 Saranno presenti le seguenti funzioni:
 
 1. int collatz(int N) # funzione ricorsiva
