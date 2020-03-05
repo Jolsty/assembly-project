@@ -3,8 +3,8 @@ il simulatore MARS. Il programma chiederà all’utente l’introduzione di un n
 console, dopodichè esporrà un menu cosi’ come segue:
 
 1. Calcola la sequenza di Collatz del numero N
-2. Stabilisci se N `e primo
-3. Stabilisci se N `e pari/dispari
+2. Stabilisci se N è primo
+3. Stabilisci se N è pari/dispari
 4. Dammi un numero casuale compreso tra 1 e N
 5. Riprova con un altro numero
 6. Esci
